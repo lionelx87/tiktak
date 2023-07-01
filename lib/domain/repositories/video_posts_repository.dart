@@ -1,6 +1,6 @@
 import 'package:tiktak/domain/entities/video_post.dart';
 
-abstract class VideoPostDataRepository {
+abstract class VideoPostRepository {
 
   Future<List<VideoPost>> getFavotireVideosByUser(String userID);
 
