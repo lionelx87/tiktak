@@ -2,10 +2,10 @@ import 'package:tiktak/domain/datasources/video_posts_datasource.dart';
 import 'package:tiktak/domain/entities/video_post.dart';
 import 'package:tiktak/domain/repositories/video_posts_repository.dart';
 
-class VideoPostsRepository implements VideoPostRepository {
+class VideoPostsRepositoryImpl implements VideoPostRepository {
   final VideoPostDataSource videosDataSource;
 
-  VideoPostsRepository({
+  VideoPostsRepositoryImpl({
     required this.videosDataSource
   });
   
